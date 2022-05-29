@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.display {
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    background-color: #fdb3b3;
+}
+
+#gradient-box {
+    height: 100%;
+    width: 100%;
+}
+
+.controls {
+    height: 100%;
+    width: 350px;
+    background-color: #f5f5f5;
+}
+
+.sidebar {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 30px 32px;
+    box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.568);
+}
+
+h1#main {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: #3d4853;
+    text-transform: uppercase;
+}
+
+.label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    margin-top: 16px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons button, .pcr-button {
+    cursor: pointer;
+    margin: 4px;
+    width: 30%;
+    height: 32px;
+    border: 2px solid #f1f4f8;
+    border-radius: 6px;
+    color: #3a444e;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.buttons button:nth-child(1),
+.buttons button:nth-child(4),
+.buttons button:nth-child(7) {
+    margin-left: 0;
+}
+
+.buttons button.selected,
+.buttons button:hover {
+    background: #f4f8fd;
+    border: 2px solid #f4f8fd;
+}
+
+svg#icn {
+    display: block;
+    margin: 8px auto;
+    fill: #3d4853;
+}
+
+.getcss button{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 0;
+    width: 256px;
+    height: 48px;    
+    background: #f1f4f8;
+    border-radius: 6px;
+    font-size: .8125rem;
+    line-height: 3rem;
+    color: #3d4853;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    outline: 0;
+    
+}
+
+.getcss button:hover {
+    background: #3d4853;
+    color: #fff;
+    -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
